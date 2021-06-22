@@ -1,6 +1,6 @@
 ## 释放正在使用的信号量
 
-`libdispatch`库支持识别运行时问题。
+`libdispatch` 库支持识别运行时问题。
 出现此类问题时，应用程序崩溃并显示异常类型， `EXC_BREAKPOINT (SIGTRAP)`
 
 我们使用 `icdab_sema`示例程序来演示 `libdispatch` 检测到的由于错误使用信号量而导致的崩溃。@icdabgithub
@@ -12,7 +12,7 @@
 ### 释放信号量的崩溃示例
 
 `icdab_sema` 示例程序在启动时发生崩溃。
-崩溃报告如下（为便于演示，将其截断）：
+崩溃报告如下（为便于演示，对报告内容进行截断）：
 
 ```
 Exception Type:  EXC_BREAKPOINT (SIGTRAP)
